@@ -1,0 +1,23 @@
+<idea-plugin>
+    <id>de.tb.idea.plugin.1st-intellij-idea-plugin</id>
+    <name>Hello world</name>
+    <vendor email="tommy.brettschneider@gmail.com">Tommy Brettschneider</vendor>
+
+    <description><![CDATA[
+    Just a really simple plugin to get into IDEA plugin development.
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
